@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/assets/script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Towers</h1>
+        <div id="form-row">
+            <form id="tower-form">
+                <label for="longitude">Longtitude</label>
+                <input type="text" id="longitude" name="lng"/>
+                <label for="latitude">Latitude</label>
+                <input type="text" id="latitude" name="lat" />
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div>
+            <table id="results">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                        <th>Accuracy</th>
+                        <th>Network Name</th>
+                        <th>Phone type</th>
+                        <th>Network ID</th>
+                        <th>2G</th>
+                        <th>3G</th>
+                        <th>LTE</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body"></tbody>
+            </table>
+        <div>
+    </body>
+</html>
